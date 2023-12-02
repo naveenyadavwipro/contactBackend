@@ -43,7 +43,7 @@ const updateContact = asyncHandler(async(req,res)=>{
     res.status(201).json(updatecontact)
 })
 
-// delete 
+// delete rrrr 
 const deleteContact = asyncHandler(async(req,res)=>{
     console.log(`request body is ${req.params.id}`) 
     const {name,email} = req.body
